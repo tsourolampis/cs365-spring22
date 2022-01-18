@@ -1,1 +1,3 @@
-# cs365-spring22
+# CS365: Foundations of Data Science (Spring '22) 
+
+
