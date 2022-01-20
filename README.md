@@ -2,6 +2,7 @@
 
 ## Lecture 1 
 
+- [Lecture 1, Slides](https://docs.google.com/presentation/d/1BFKBjyYwd0OkdS3y7mFqXDRaycPN8jRuVIua6fb_nXc/edit?usp=sharing)
 - Notebooks
 	1.  [Ansecombe's quartet](https://github.com/tsourolampis/cs365-spring22/blob/main/Ansecombe%20Quartet.ipynb)
 	2.  [Mosaic plots for Titanic](https://github.com/tsourolampis/cs365-spring22/blob/main/Titanic.ipynb)
