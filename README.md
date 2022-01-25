@@ -16,6 +16,5 @@
 - [Lecture 2, Slides](https://docs.google.com/presentation/d/1TcfhqpGd4LNaeoy9xEXrqxsiGS2cEnzrRQuoFzQ5OZM/edit?usp=sharing)
 - Notebooks
 	1.  [Hats off](https://github.com/tsourolampis/cs365-spring22/blob/main/Hats%20off.ipynb)
-
 - Readings
 	* [Probability4Datascience, Chapters 2,3,4](https://probability4datascience.com/)
