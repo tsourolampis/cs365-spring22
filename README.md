@@ -1,4 +1,4 @@
-# CS365: Foundations of Data Science (Spring '22) 
+# Index - "CS365: Foundations of Data Science (Spring '22)"
 
 ## Lecture 1 
 
@@ -9,3 +9,10 @@
 - Readings
 	* [How to display data badly, by Howard Wainer](https://github.com/tsourolampis/cs365-spring22/blob/main/readings/wainer-vis.pdf) 
 	* [Histogram wikipedia article](https://en.wikipedia.org/wiki/Histogram)
+
+
+## Lecture 2 
+
+- [Lecture 2, Slides](https://docs.google.com/presentation/d/1TcfhqpGd4LNaeoy9xEXrqxsiGS2cEnzrRQuoFzQ5OZM/edit?usp=sharing)
+- Notebooks
+	1.  [Hats off](https://github.com/tsourolampis/cs365-spring22/blob/main/Hats%20off.ipynb)
