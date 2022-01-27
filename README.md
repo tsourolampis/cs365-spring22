@@ -18,3 +18,7 @@
 	1.  [Hats off](https://github.com/tsourolampis/cs365-spring22/blob/main/Hats%20off.ipynb)
 - Readings
 	* [Probability4Datascience, Chapters 2,3,4](https://probability4datascience.com/)
+
+## Lecture 3 
+
+- [Lecture 3, slides](https://docs.google.com/presentation/d/1YH6_02bhIDGcVmQYg0kXXM4kzlbly0A0AFMz0qC-30k/edit?usp=sharing)
