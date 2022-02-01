@@ -22,5 +22,9 @@
 ## Lecture 3 
 
 - [Lecture 3, slides](https://docs.google.com/presentation/d/1YH6_02bhIDGcVmQYg0kXXM4kzlbly0A0AFMz0qC-30k/edit?usp=sharing)
+
+## Lecture 4 
+
+- [Lecture 3, slides](https://docs.google.com/presentation/d/1PURWJ8rXfV8-DmMK8QyMqh5E5EVSJJLL9MhimHllCuk/edit?usp=sharing)
 - Notebooks 
 	1. [π estimation](https://github.com/tsourolampis/cs365-spring22/blob/main/WLLN%20for%20estimating%20%CF%80.ipynb)
