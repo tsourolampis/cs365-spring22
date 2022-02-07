@@ -45,7 +45,7 @@ def predict(ham_prior, spam_prior, ham_like_dict, spam_like_dict, text):
 	return ham_spam_decision
 
 
-def metrics(ham_dict, spam_dict, df):
+def metrics(ham_prior, spam_prior, ham_dict, spam_dict, df):
 	'''
 	Calls "predict"
 	'''
@@ -58,7 +58,7 @@ def metrics(ham_dict, spam_dict, df):
         roi = df.iloc[i,:]
         roi_text = roi.text
         roi_label = roi.label_num
-        guess = predict(ham_dict, spam_dict, roi_text)
+        guess = predict(ham_prior, spam_prior, ham_dict, spam_dict, roi_text)
         if roi_label == 0 and guess == 0:
             hh += 1
         elif roi_label == 0 and guess == 1:
