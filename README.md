@@ -31,4 +31,22 @@
 	1. [π estimation](https://github.com/tsourolampis/cs365-spring22/blob/main/WLLN%20for%20estimating%20%CF%80.ipynb)
 - Readings
 	* [Probability4Datascience, 6.1, 6.2.6, 6.2.7, 6.2.8](https://probability4datascience.com/)
+
+## Lecture 5 
+
+- [Lecture 5, slides](https://docs.google.com/presentation/d/1l1c7hyy8k4UYp0MbNvGqw3g1cisloGLt1Ej7nNF-9VM/edit)
+
+## Lecture 6 
+
+- [Lecture 6, slides](https://github.com/tsourolampis/cs365-spring22/blob/main/cs365-lec6-merged.pdf)
+- Notebooks
+	- [Denoising images](https://github.com/tsourolampis/cs365-spring22/blob/main/Bayesian%20Image%20Denoising%20.ipynb)
+- Readings
+	- [Exact maximum a posteriori estimation for binary images](https://github.com/tsourolampis/cs365-spring22/blob/main/greig-porteous-seheult.pdf)
+
+## Lecture 7 
+
+- [Lecture 7, slides](https://docs.google.com/presentation/d/1EP5sqDMghJQy3n89xdHqNgbVM9geYNmCSXyByweiw8A/edit#slide=id.g10fb791f0ed_0_0)
+- Readings
+	* [Probability4Datascience, 6.1, 6.2.6, 6.2.7, 6.2.8](https://probability4datascience.com/)
 	* [Goeman's notes on Chernoff bounds](https://math.mit.edu/~goemans/18310S15/chernoff-notes.pdf)
