@@ -1,0 +1,54 @@
+\input{settings} % add packages, settings, and declarations in settings.tex
+\usepackage{url}
+\usepackage{amsmath,amssymb,amsthm}
+
+
+\newcommand{\Prob}[1]{{{\bf{Pr}}\left[{#1}\right]}}
+\newcommand{\Mean}[1]{{\mathbb E}\left[{#1}\right]}
+\newcommand{\Var}[1]{{\mathbb Var}\left[{#1}\right]}
+
+
+\begin{document}
+
+\lhead{Prof. C.E. Tsourakakis} 
+\rhead{CS365 Spring '22 \\ Foundations of Data Science \\ Assignment 3} 
+\cfoot{\thepage\ of \pageref{LastPage}}
+
+
+\section*{Instructions}
+\framebox{%
+	\begin{minipage}{0.9\linewidth}
+		\begin{itemize}
+			\item The homework is due on \underline{{\bf Friday 2/18 at 5pm ET}}.  
+			\item There are 3 problems in total.
+			\item No extension will be provided, unless for serious documented reasons.
+			\item {\bf Start early!}
+			\item Study the material taught in class, and feel free to do so in small groups, but the solutions should be a product of your own work. 
+			\item This  is not a multiple choice homework;   reasoning, and mathematical proofs are required before giving your final answer.
+		\end{itemize}
+\end{minipage}}
+
+\section{Short exercises [15 points]} 
+
+\begin{enumerate}
+	\item [(a)] [5 pts] Prove that $1+x \leq e^x$ for all real $x$. For what range of $x$ is $1+x\approx e^x$ within 0.01. 
+\smallskip 
+	\item[(b)] [2.5pts] Compute for $n=1,\ldots,10$, $n!$ exactly, and using Stirling's approximation formula $n! \approx \sqrt{2 \pi n}(\frac{n}{e})$. What do you observe? Present your findings as a 2-column table. 
+\smallskip 
+		\item[(c)] [7.5pts] Give an example of a random variable for which Chebyshev's inequality is tight, namely the inequality holds as equality. 
+\end{enumerate}   
+
+
+\section{To Handshake or Not?[25 points]} 
+
+Suppose $n$ people walk into a party. Due to covid-19, each pair $\{i,j\}$ shakes hands with probability only $\frac{1}{10}$. Prove that {\it almost surely} {\bf every} person from that party shook hands in the range $[ (1-\epsilon)\frac{n}{10}, (1+\epsilon)\frac{n}{10}]$. 
+
+
+\section{Bayes hits again [50 points]}
+
+This exercise is given in the form of Jupyter notebook in our Github page \url{https://github.com/tsourolampis/cs365-spring22} under the HW directory.
+
+ 
+ 
+
+\end{document}
