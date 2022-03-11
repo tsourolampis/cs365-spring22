@@ -1,6 +1,10 @@
-# Index - "CS365: Foundations of Data Science (Spring '22)"
+#   "CS365: Foundations of Data Science (Spring '22)"
 
-## Lecture 1 
+
+## [Class web page with all the materials](https://tsourakakis.com/)
+
+
+## Index 
 
 - [Lecture 1, Slides](https://docs.google.com/presentation/d/1BFKBjyYwd0OkdS3y7mFqXDRaycPN8jRuVIua6fb_nXc/edit?usp=sharing)
 - Notebooks
@@ -24,6 +28,7 @@
 - [Lecture 3, slides](https://docs.google.com/presentation/d/1YH6_02bhIDGcVmQYg0kXXM4kzlbly0A0AFMz0qC-30k/edit?usp=sharing)
 - Readings 
 	* [Probability4Datascience,6.2.1, 6.2.4,  6.2.5, 6.3.2, 6.3.3, 6.3.6, 6.3.7, 6.4.2](https://probability4datascience.com/)
+
 ## Lecture 4 
 
 - [Lecture 4, slides](https://docs.google.com/presentation/d/1PURWJ8rXfV8-DmMK8QyMqh5E5EVSJJLL9MhimHllCuk/edit?usp=sharing)
@@ -50,3 +55,16 @@
 - Readings
 	* [Probability4Datascience, 6.1, 6.2.6, 6.2.7, 6.2.8](https://probability4datascience.com/)
 	* [Goeman's notes on Chernoff bounds](https://math.mit.edu/~goemans/18310S15/chernoff-notes.pdf)
+ 
+
+## Lecture 8 
+
+- [Lecture 8, slides](https://docs.google.com/presentation/d/12bolBVTbC0AGSSiIMcOG0V4coks4YrLlZ3mfdzekZ9M/) 
+
+## Lecture 9 
+
+- [Lecture 9, slides](https://docs.google.com/presentation/d/17IIB-x_HMXoWgch3W2x2jJOjugcf82ej2ysfTFafTrQ/)
+
+## Lectures 10, 11
+
+- [Lectures 10 and 11, Slides](https://docs.google.com/presentation/d/14vmM5xsKnVBFMIHZLahYuQzkuOwlXsRwQXzRq0DqT1w/)
