@@ -1,0 +1,53 @@
+\input{settings} % add packages, settings, and declarations in settings.tex
+\usepackage{url}
+\begin{document}
+
+\lhead{Prof. C.E. Tsourakakis} 
+\rhead{CS365 Spring '22 \\ Foundations of Data Science \\ Assignment 7} 
+\cfoot{\thepage\ of \pageref{LastPage}}
+
+
+\section*{Instructions}
+\framebox{%
+	\begin{minipage}{0.9\linewidth}
+		\begin{itemize}
+			\item The homework is due on \underline{{\bf Friday 4/1 at 5pm ET}}.  
+			\item There are 3 problems. The last problem is on Git, and it is a programming assignment.
+			\item No extension will be provided, unless for serious documented reasons.
+			\item {\bf Start early!}
+			\item Study the material taught in class, and feel free to do so in small groups, but the solutions should be a product of your own work. 
+			%\item For any given problem, the points per sub-question are equally distributed {\it unless otherwise told}. For example, Problems 2.1, 2.2, 2.3  are worth $\frac{30}{3}=10$ points each. Problem 2.2(i) and (ii) similarly are worth 5 points each. However, Problem 3 has unequal distribution of points that is explicitly given. 
+			\item This  is not a multiple choice homework;   reasoning, and mathematical proofs are required before giving your final answer.
+		\end{itemize}
+\end{minipage}}
+
+
+\section{Projections [30 points]}   
+	Let $\pi_b(x)$ be the orthogonal projection of $x\in \mathbb{R}^n$ on the subspace $U=span(b)$ where $b\in \mathbb{R}^n$. 
+\begin{itemize}
+
+	\item[(a)] 	Prove that $\pi_b(x)$  is the closest vector to $x$ on $U$.  
+ 
+	
+	\item[(b)] Prove that the Euclidean length of $\pi_b(x)$  is less than or equal to that of  $x$. 
+ 
+	\item[(c)] Can two orthogonal vectors be linearly dependent? Give an answer with a proof. 
+ 
+	\item[(d)] Transform the basis $B= \{ v_1=(4,2), v_2=(1,2) \}$ of $\mathbb{R}^2$ into an orthonormal basis whose first basis
+	vector is in the span of $v_1$.
+ 
+\end{itemize}
+   
+\section{A special matrix-vector multiplication [20 points]} 
+
+
+Let $u \in \mathbb{R}^n$ be a fixed vector. Let $U = uu^T$. Show that maximizing $x^T U(\vec{1}-x)$ over all binary vectors $x \in \{0,1\}^n$  
+is equivalent to partitioning the coordinates of $u$ into two subsets wheret he sum of the elements in both subsets are as equal as possible. Here $1$ represent the all-ones vectors $\vec{1}= \underbrace{[1,1,...,1]^T}_{n \text{~coordinates}}$.
+ 
+
+\section{$F_0, F_1$ estimation : Programming Assignment [50 points] } 
+
+Please see our Github repo for this problem.
+
+ 
+\end{document}
