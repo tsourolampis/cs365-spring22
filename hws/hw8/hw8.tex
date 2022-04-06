@@ -1,0 +1,90 @@
+\input{settings} % add packages, settings, and declarations in settings.tex
+\usepackage{url}
+\usepackage{hyperref}
+\begin{document}
+
+\lhead{Prof. C.E. Tsourakakis} 
+\rhead{CS365 Spring '22 \\ Foundations of Data Science \\ Assignment 7} 
+\cfoot{\thepage\ of \pageref{LastPage}}
+
+
+\section*{Instructions}
+\framebox{%
+	\begin{minipage}{0.9\linewidth}
+		\begin{itemize}
+			\item The homework is due on \underline{{\bf Friday 4/15 at 5pm ET}}.  
+			\item There are 4 problems. The last problem is on Git, and it is a programming assignment.
+			\item No extension will be provided, unless for serious documented reasons.
+			\item {\bf Start early!}
+			\item Study the material taught in class, and feel free to do so in small groups, but the solutions should be a product of your own work. 
+			%\item For any given problem, the points per sub-question are equally distributed {\it unless otherwise told}. For example, Problems 2.1, 2.2, 2.3  are worth $\frac{30}{3}=10$ points each. Problem 2.2(i) and (ii) similarly are worth 5 points each. However, Problem 3 has unequal distribution of points that is explicitly given. 
+			\item This  is not a multiple choice homework;   reasoning, and mathematical proofs are required before giving your final answer.
+			\item Unless otherwise told, the points are distributed evenly between the different sub-problems.  E.g., each sub-problem in Problem 1 is worth 2.5 points.
+		\end{itemize}
+\end{minipage}}
+
+\section{PCA [10 points]} 
+
+
+
+ 
+	
+	  In this exercise, you may use Python, Julia, \href{https://www.wolframalpha.com/}{Wolfram Alpha}, or your favorite software to do calculations. Explain briefly your steps, and show your answers.
+		Consider the data shown in Table~\ref{tab:data} as a $\mathbb{R}^{k \times n}$ matrix where $k=2$ and $n=5$. 
+	
+	\begin{itemize}
+		
+	\item[(a)] 	 Find the sample mean vector $\mu \in \mathbb{R}^2$, and subtract it from the observation vectors. 
+	
+	\item[(b)] Let $B$ be the resulting $\mathbb{R}^{2 \times 5}$ matrix from step (a). Compute the sample covariance matrix $S=\frac{1}{n-1}BB^T$. 
+	
+	\item[(c)] What are the two eigenvalues$\lambda_1 > \lambda_2$ and the respective eigenvectors of $S$? Compute the variance of the data captured by the top PC as $\frac{\lambda_1}{\lambda_1+\lambda_2}$.  
+	
+	\item[(d)] Plot the data points, and visualize the top PC. What do you observe? 
+
+\end{itemize}
+
+
+\begin{table}[!h]
+	\centering
+	\begin{tabular}{|c|ccccc|} \hline
+		Weight (lb) & 120 & 125 & 125 & 135 & 145 \\  \hline
+		Height (in.)  & 61 & 60 & 64 & 68 & 72 \\ \hline
+	\end{tabular}
+	\caption{\label{tab:data} Measurements of weight and height for 5 people.}
+\end{table}
+
+\section{ Proofs [20 points]}    
+\begin{itemize}
+
+
+	\item[(a)] 	Prove that the determinant of an orthogonal matrix is equal to either +1 or -1.  
+	
+	 
+	\item[(b)] Prove that for any square matrix the absolute value of its determinant$|det(A)|$ is equal to the product of its singular values, i.e., $|det(A)|=\prod_{i=1}^n \sigma_i$  
+	 
+	
+\end{itemize}
+   
+\section{SVD [20 points]} 
+
+Let $A=U\Sigma V^T$ be the singular value decomposition of a matrix $A \in \mathbb{R}^{n \times m}$. 
+ 
+ \begin{itemize}
+ 	
+ 	
+ 	\item[(a)](6pts)  Show that $A^T u_j = \sigma_j v_j, 1\leq j \leq rank(A)$. Here $u_j, v_j$ are the left, and right singular vectors of $A$ respectively  for $1\leq j \leq rank(A)$.
+ 	
+ 	\item[(b)](6pts) Suppose $n=m$, i.e., $A$ is square. Furthermore, suppose $A$ is invertible. What is the SVD of $A^{-1}$? 
+ 	
+ 	
+ 	\item[(c)](8pts)  Let $A^{n \times m}$ be a real matrix. Show that if $P \in \mathbb{R}^{n \times n}$ is an orthogonal matrix, $PA$ has the same singular values as $A$. \\ 
+ 	
+% 	{\it Hint}: Prove first that if $P,U$ are orthogonal matrices, so is $PU$.
+\end{itemize}
+
+ 
+\section{Eigenfaces [50 points]} 
+
+For the coding assignment, see the  \href{https://github.com/tsourolampis/cs365-spring22/blob/main/hws/hw8/PA8-STUDENT.ipynb}{Jupyter notebook} in our Git repo. 
+\end{document}
