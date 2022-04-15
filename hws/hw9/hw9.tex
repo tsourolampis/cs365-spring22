@@ -1,0 +1,66 @@
+\input{settings} % add packages, settings, and declarations in settings.tex
+\usepackage{url}
+\usepackage{amsmath,amssymb,amsthm}
+
+
+\newcommand{\Prob}[1]{{{\bf{Pr}}\left[{#1}\right]}}
+\newcommand{\Mean}[1]{{\mathbb E}\left[{#1}\right]}
+\newcommand{\Var}[1]{{\mathbb Var}\left[{#1}\right]}
+
+
+\begin{document}
+
+\lhead{Prof. C.E. Tsourakakis} 
+\rhead{CS365 Spring '22 \\ Foundations of Data Science \\ Assignment 9} 
+\cfoot{\thepage\ of \pageref{LastPage}}
+
+
+\section*{Instructions}
+\framebox{%
+	\begin{minipage}{0.9\linewidth}
+		\begin{itemize}
+			\item The homework is due on \underline{{\bf Friday 2/22 at 5pm ET}}.  
+			\item There are 2 problems in total.
+			\item No extension will be provided, unless for serious documented reasons.
+			\item {\bf Start early!}
+			\item Study the material taught in class, and feel free to do so in small groups, but the solutions should be a product of your own work. 
+			\item This  is not a multiple choice homework;   reasoning, and mathematical proofs are required before giving your final answer.
+		\end{itemize}
+\end{minipage}}
+
+\section{Short proofs [50 points]} 
+
+\begin{enumerate}
+	\item [(a)] [10 pts] Given a square matrix $A^{n \times n}$ and a constant $\kappa$ we define the shifted matrix $A-\kappa I$ where $I^{n \times n}$ is the identity matrix. Prove that if $\lambda$ is an eigenvalue of $A$, then $\lambda-\kappa$ is an eigenvalue of $A -\kappa I$. 
+	
+	\vspace{2mm} 
+	\item[(b)]  [10 pts] Consider the (undirected) clique graph $K_n$ on $n$ nodes, where every two distinct vertices in the clique are adjacent.  Compute analytically the eigenvalues of the adjacency matrix. 	
+	\vspace{2mm} 
+	
+	{\it Hint: }  Shift the adjacency matrix with an appropriate value $\kappa$ to obtain a matrix who eigenvalues are easy to calculate, and then shift back to the original matrix using (a).
+	
+
+	\item[(c)]  [10 pts]  Consider a random walk on a connected undirected graph with $n$ nodes and $m$ edges. Prove that the stationary distribution $\pi=(\pi_1,\ldots,\pi_n)$ satisfies
+	$\pi_j = \frac{deg(j)}{2m}$ for all nodes $j \in [n]$. 
+	
+	
+	\item[(d)]  [10 pts]   Can a Markov chain have infinite stationary distributions? Explain your answer.
+	
+		\item [(e) ]  [10 pts]
+	What is the expected number of coin tosses to obtain heads-tails-heads (HTH) consecutively using a fair coin? \\ 
+
+
+ 
+
+\end{enumerate}   
+
+ 
+
+\section{HITS algorithm [50 points]}
+
+For the programming assignment see the Jupyter notebook in our Github page \url{https://github.com/tsourolampis/cs365-spring22} under the HW directory.
+
+ 
+ 
+
+\end{document}
