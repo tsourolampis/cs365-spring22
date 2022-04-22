@@ -1,0 +1,96 @@
+\input{settings} % add packages, settings, and declarations in settings.tex
+\usepackage{url}
+\usepackage{amsmath,amssymb,amsthm}
+
+
+\newcommand{\Prob}[1]{{{\bf{Pr}}\left[{#1}\right]}}
+\newcommand{\Mean}[1]{{\mathbb E}\left[{#1}\right]}
+\newcommand{\Var}[1]{{\mathbb Var}\left[{#1}\right]}
+
+
+\begin{document}
+
+\lhead{Prof. C.E. Tsourakakis} 
+\rhead{CS365 Spring '22 \\ Foundations of Data Science \\ Assignment 10} 
+\cfoot{\thepage\ of \pageref{LastPage}}
+
+
+\section*{Instructions}
+\framebox{%
+	\begin{minipage}{0.9\linewidth}
+		\begin{itemize}
+			\item The homework is due on \underline{{\bf Friday 4/29 at 5pm ET}}.  
+			\item No extension will be provided, unless for serious documented reasons.
+			\item {\bf Start early!}
+			\item Study the material taught in class, and feel free to do so in small groups, but the solutions should be a product of your own work. 
+			\item This  is not a multiple choice homework;   reasoning, and mathematical proofs are required before giving your final answer.
+			\item  $tr$ denotes  the trace of a matrix. 
+		\end{itemize}
+\end{minipage}}
+
+\section{Derivatives [55 points]} 
+
+Compute the derivative $\frac{df}{dx}$   for the following functions. It will be helpful to  identify $n,m$ where $f:\mathbb{R}^n \to \mathbb{R}^m$, and the dimensions of the derivative first. 
+
+\begin{enumerate}
+	\item [(a)] [5pts]  $f(x) = \frac{1}{1+e^{-x}}, x \in \mathbb{R}$
+	
+	\vspace{2mm} 
+
+	\item[(b)]  [5 pts]  $f(x)= \exp \Big(-\frac{1}{2\sigma^2} (x-\mu)^2 \Big), x \in \mathbb{R}$
+	
+ 
+	 
+
+	\item[(c)]  [5 pts]   $f(x)= \sin (x_1) \cos (x_2), x \in \mathbb{R}^2$.
+	
+	
+	
+	\item[(d)]  [5 pts]    $f(x) = xx^T, x \in \mathbb{R}^n$.
+
+	\item[(e)]  [5 pts]    $f(x) = \sin( \log (x^T x)), x \in \mathbb{R}^n$.  
+ 
+ 	\item[(f)]  [10 pts]    $f(z)=\log(1+z)$ where $z=x^Tx, x \in \mathbb{R}^n$
+
+ 	\item[(g)]  [10 pts]    $f(x)=tr(xx^T+\sigma^2 I), x \in \mathbb{R}^n$.  
+	
+	\item[(h)] [10 pts] $f(x)=x^TAx$ where $x \in \mathbb{R}^n, A \in \mathbb{R}^{n \times n}$.
+\end{enumerate}   
+
+ 
+
+\section{Matrix derivative [25 points]}
+ 
+ Let $A \in \mathbb{R}^{D \times E}, X \in  \mathbb{R}^{E \times F}, B \in  \mathbb{R}^{F \times D}$. Compute $\frac{dg}{dX}$ where  $g(X) = tr(AXB).$
+ 
+ 
+\section{SVD Practice [20 points]}
+
+Find the  SVD of the following matrices without the use of computing devices/software.
+
+
+\begin{enumerate}
+    \item[(a)] [5 points]  $A= [1 , 1]$.
+    \item[(b)]{[5 points] $ B=
+    	 \begin{bmatrix}
+        1 & 3 \\
+        2 & 6 \\
+         
+        \end{bmatrix}. $
+    }
+    \item[(c)]{[5 points] $C= 
+         \begin{bmatrix}
+        1 & 2 \\
+        3 & 6 \\
+         
+        \end{bmatrix}.$
+    }
+    \item[(d)]{[5 points] 
+        $D= \begin{bmatrix}
+        1 & 2 & 3\\
+        2 & 4 & 6\\
+        \end{bmatrix}.$
+    }
+\end{enumerate}
+
+\end{document}
